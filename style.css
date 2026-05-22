@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Orbitron;
+  background: radial-gradient(circle at top, #0b0f1a, #000);
+  color: white;
+}
+
+.glow {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  background: cyan;
+  filter: blur(160px);
+  opacity: 0.2;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: cyan;
+  text-shadow: 0 0 20px cyan;
+}
+
+.tag {
+  display: block;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 15px;
+  border: 1px solid rgba(0,255,255,0.2);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-color: cyan;
+  box-shadow: 0 0 20px cyan;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact a {
+  color: cyan;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
